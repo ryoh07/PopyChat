@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		A9404E4F27342CE1003EEBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9404E4E27342CE1003EEBA4 /* Assets.xcassets */; };
 		A9404E5227342CE1003EEBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9404E5027342CE1003EEBA4 /* LaunchScreen.storyboard */; };
 		A9404E60273754AA003EEBA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9404E5F273754AA003EEBA4 /* GoogleService-Info.plist */; };
+		A962AE722743FE5800D9CB5B /* ChatGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962AE712743FE5800D9CB5B /* ChatGroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A9404E5127342CE1003EEBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9404E5327342CE1003EEBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9404E5F273754AA003EEBA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A962AE712743FE5800D9CB5B /* ChatGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGroupViewController.swift; sourceTree = "<group>"; };
 		C55807948E6C165536F747AC /* Pods-PopyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopyChat.debug.xcconfig"; path = "Target Support Files/Pods-PopyChat/Pods-PopyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		EC403DEA293093E2C9627403 /* Pods_PopyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54AAF6C9258482A46839F3 /* Pods-PopyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopyChat.release.xcconfig"; path = "Target Support Files/Pods-PopyChat/Pods-PopyChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,9 +75,9 @@
 		A9404E4427342CDE003EEBA4 /* PopyChat */ = {
 			isa = PBXGroup;
 			children = (
+				A962AE702743FE2400D9CB5B /* ViewController */,
 				A9404E4527342CDE003EEBA4 /* AppDelegate.swift */,
 				A9404E4727342CDE003EEBA4 /* SceneDelegate.swift */,
-				A9404E4927342CDE003EEBA4 /* ViewController.swift */,
 				A9404E4B27342CDE003EEBA4 /* Main.storyboard */,
 				A9404E4E27342CE1003EEBA4 /* Assets.xcassets */,
 				A9404E5027342CE1003EEBA4 /* LaunchScreen.storyboard */,
@@ -85,13 +87,21 @@
 			path = PopyChat;
 			sourceTree = "<group>";
 		};
+		A962AE702743FE2400D9CB5B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9404E4927342CDE003EEBA4 /* ViewController.swift */,
+				A962AE712743FE5800D9CB5B /* ChatGroupViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		FA42C6D4A01368B9A34737E6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C55807948E6C165536F747AC /* Pods-PopyChat.debug.xcconfig */,
 				EC54AAF6C9258482A46839F3 /* Pods-PopyChat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A962AE722743FE5800D9CB5B /* ChatGroupViewController.swift in Sources */,
 				A9404E4A27342CDE003EEBA4 /* ViewController.swift in Sources */,
 				A9404E4627342CDE003EEBA4 /* AppDelegate.swift in Sources */,
 				A9404E4827342CDE003EEBA4 /* SceneDelegate.swift in Sources */,

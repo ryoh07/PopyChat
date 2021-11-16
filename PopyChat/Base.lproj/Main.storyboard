@@ -55,51 +55,6 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="93.103448275862078"/>
         </scene>
-        <!--Root View Controller-->
-        <scene sceneID="1ch-Be-WKQ">
-            <objects>
-                <tableViewController id="gqi-98-3Fj" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5Ye-l3-CVk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="EZF-FV-YN5">
-                                <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EZF-FV-YN5" id="Wzy-eX-ZRT">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="gqi-98-3Fj" id="QeV-qz-AJK"/>
-                            <outlet property="delegate" destination="gqi-98-3Fj" id="RIg-fu-gk1"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="mZW-lO-OqT"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wxf-mt-0P6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="806" y="-609"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="lph-Bz-Kmq">
-            <objects>
-                <navigationController id="nL2-Ky-Ig6" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uLj-09-3G9">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="gqi-98-3Fj" kind="relationship" relationship="rootViewController" id="fjN-kI-NV2"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="91Z-Kg-Jv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-109" y="-609"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="eqv-Dv-Spf">
             <objects>
@@ -139,17 +94,18 @@
                     </view>
                     <navigationItem key="navigationItem" id="mBq-Yx-Rhv"/>
                     <connections>
-                        <segue destination="iQo-Gz-wSi" kind="show" id="DZM-As-vD1"/>
+                        <segue destination="iQo-Gz-wSi" kind="show" id="Pvz-1Z-Rxd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJa-6Q-dqB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="885.50724637681162" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat Group View Controller-->
         <scene sceneID="TIr-Nh-uU3">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="iQo-Gz-wSi" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsx-Hv-Olk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController modalPresentationStyle="fullScreen" id="iQo-Gz-wSi" customClass="ChatGroupViewController" customModule="PopyChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K3M-jn-Dxw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,7 +114,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="whb-Or-nQy"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zsx-Hv-Olk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1722" y="94"/>
         </scene>
